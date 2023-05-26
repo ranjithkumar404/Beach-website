@@ -13,7 +13,7 @@ function App() {
       <Destination />
       <Search />
       <Select />
-      <Footer />
+     <Footer/>
     </div>
   );
 }

@@ -11,15 +11,15 @@ const Destination = () => {
         <h1 className='text-center  font-bold text-3xl'>All-Inclusive Resorts</h1>
         <h1 className='text-center font-semibold text-lg '>On the Caribbean's Best Beaches</h1>
         <div className='grid  gap-2 md:grid-cols-5 md:gap-5'>
- <img className='w-full h-full col-span-2 object-cover md:col-span-3 row-span-2 rounded-2xl hover:scale-95 duration-300' src={img1} alt="/" />
-<img className='w-full h-full object-cover rounded-2xl hover:scale-95 duration-300' src={img2} alt="" />
-<img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img3} alt="" />
-<img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img4} alt="" />
- <img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img5} alt="" />
-            
-    
+          <img className='w-full h-full col-span-2 object-cover md:col-span-3 row-span-2 rounded-2xl hover:scale-95 duration-300' src={img1} alt="/" />
+          <img className='w-full h-full object-cover rounded-2xl hover:scale-95 duration-300' src={img2} alt="" />
+          <img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img3} alt="" />
+          <img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img4} alt="" />
+          <img className='w-full hover:scale-95 duration-300 h-full object-cover rounded-2xl' src={img5} alt="" />
+
+
         </div>
-       
+
       </div>
     </div>
   )

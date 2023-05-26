@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
     FaFacebook,
     FaTwitter,
@@ -6,8 +7,10 @@ import {
     FaPinterest,
     FaYoutube,
 } from 'react-icons/fa';
-const Footer = () => {
+const footer = () => {
     return (
+
+
         <div className='flex-col bg-slate-300 space-y-5 p-5 '>
             <div className='flex justify-between'>
                 <p className='text-xl font-bold'>BEACHES.</p>
@@ -40,4 +43,6 @@ const Footer = () => {
     )
 }
 
-export default Footer
+
+
+export default footer
